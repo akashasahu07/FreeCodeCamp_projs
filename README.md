@@ -1,4 +1,4 @@
-# FreeCodeCamp_projs
+<h1 align="center">FreeCodeCamp Projects</h1>
 <h3>Simple Fun Projects</h3>
 <h4>
   <ul>
