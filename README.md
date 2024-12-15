@@ -3,7 +3,8 @@
 <h4>
   <ul>
     <li>Cat Painting</li>
-    <li>Piano</li>
     <li>City Skyline</li>
+    <li>CSS Grid Magazine</li>
+    <li>Piano</li>
   </ul>
 </h4>
