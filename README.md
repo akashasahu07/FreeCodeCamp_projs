@@ -1,8 +1,9 @@
-<h1 align="center"># FreeCodeCamp_projs</h1>
-
-## All Projects Build By Using Html and CSS 
-
-### 1. Cat Painting
-### 2. City Skyline
-### 3. CSS Grid Magazine
-### 4. Piano
+<h1 align="center">FreeCodeCamp Projects</h1>
+<h3>Simple Fun Projects</h3>
+<h4>
+  <ul>
+    <li>Cat Painting</li>
+    <li>Piano</li>
+    <li>City Skyline</li>
+  </ul>
+</h4>
