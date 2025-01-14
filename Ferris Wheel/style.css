@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://th.bing.com/th/id/R.d8d0a987a44cbf759b620b8f67cd55b0?rik=wckeTLl8YDUSyQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fHD-Download-Night-Sky.jpg&ehk=3F5iaBYX3mAYMScLg2XOyPGBXLhF3%2f0ruGcXLcot3aE%3d&risl=1&pid=ImgRaw&r=0) no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 8%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.wheel {
+    border-radius: 50%;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+    animation-name: wheel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-image: url(https://www.gannett-cdn.com/presto/2019/08/02/PMJS/384022d5-3552-4166-a303-dcdd64c1dda9-MJS_Wonderfair_2.jpg?crop=4895,2754,x0,y0&width=3200&height=1801&format=pjpg&auto=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 2rem #fff;
+}
+
+.line {
+    background-color: white;
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+}
+
+.line:nth-of-type(2) {
+    transform: rotate(60deg);
+}
+
+.line:nth-of-type(3) {
+    transform: rotate(120deg);
+}
+
+.line:nth-of-type(4) {
+    transform: rotate(180deg);
+}
+
+.line:nth-of-type(5) {
+    transform: rotate(240deg);
+}
+
+.line:nth-of-type(6) {
+    transform: rotate(300deg);
+}
+
+.cabin {
+    background-color: red;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    transform-origin: 50% 0%;
+    animation: cabins 10s ease-in-out infinite;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2rem #bef3bd;
+}
+
+.cabin:nth-of-type(1) {
+    right: -8.5%;
+    top: 50%;
+}
+
+.cabin:nth-of-type(2) {
+    right: 17%;
+    top: 93.5%;
+}
+
+.cabin:nth-of-type(3) {
+    right: 67%;
+    top: 93.5%;
+}
+
+.cabin:nth-of-type(4) {
+    left: -8.5%;
+    top: 50%;
+}
+
+.cabin:nth-of-type(5) {
+    left: 17%;
+    top: 7%;
+}
+
+.cabin:nth-of-type(6) {
+    right: 17%;
+    top: 7%;
+}
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes cabins {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: purple;
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}

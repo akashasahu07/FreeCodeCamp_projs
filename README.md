@@ -8,5 +8,6 @@
     <li>City Skyline</li>
     <li>CSS Grid Magazine</li>
     <li>Piano</li>
+    <li>Ferris Wheel</li>
   </ul>
 </h4>
