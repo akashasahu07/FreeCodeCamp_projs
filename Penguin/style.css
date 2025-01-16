@@ -260,24 +260,3 @@ body {
     position: absolute;
     margin-top: -58px;
 }
-
-/* @media (max-width: 768px) {
-    .left-mountain
-    {
-        width: 50vw;
-        margin-top: 10vh;
-    }
-
-    .back-mountain {
-        top: 25vh;
-    }
-
-    .penguin {
-        top: 2rem;
-    }
-
-    .ground {
-        margin-top: -5vh;
-        width: 117vw;
-    }
-} */
