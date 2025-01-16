@@ -9,5 +9,6 @@
     <li>CSS Grid Magazine</li>
     <li>Piano</li>
     <li>Ferris Wheel</li>
+    <li>Happy Penguin</li>
   </ul>
 </h4>
